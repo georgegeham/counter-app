@@ -8,6 +8,12 @@
   user-select: none;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .number {
   background-color: rgb(0, 0, 0);
   width: 70px;
@@ -34,7 +40,6 @@ main {
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
   color: #eeee;
   font-size: 1.2rem;
   font-weight: lighter;
